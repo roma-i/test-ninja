@@ -1,0 +1,51 @@
+ .has-sidebar #secondary{
+ 	float: left
+ }
+
+ @media screen and (min-width: 48em){
+	.has-sidebar:not(.error404) #primary {
+	    float: right;
+	    width: 58%;
+	}
+ } 
+
+/*  For Shop  */
+ .woocommerce #content div.product div.thumbnails a,
+ .woocommerce div.product div.thumbnails a,
+ .woocommerce-page #content div.product div.thumbnails a,
+ .woocommerce-page div.product div.thumbnails a{
+ 	float: right;
+ 	margin-left: 3.8%;
+ 	margin-right: 0;
+ }
+
+ .single-product .woocommerce-product-rating .star-rating{
+ 	float: right;
+ }
+
+ .site-footer .widget .product_list_widget li a.remove,
+ .widget .product_list_widget li a.remove{
+	float: left;
+ }
+
+ .widget_product_search .search-field{
+ 	text-align: right;
+ 	padding-right: 5px;
+ 	padding-left: 100px;
+ }
+
+ .widget_product_search input[type=submit]{
+	position: absolute;
+	right: auto;
+	left: .5em;
+ }
+
+
+/*  For Popup */
+ .tw-seventeen-contact-popup{
+	text-align: right;
+ }
+
+ .tw-seventeen-contact-popup label{
+	text-indent: 0;
+ }
